@@ -1,0 +1,21 @@
+{
+  "scripts": {
+    "dev": "concurrently \"npm run watch\" \"npm run serve\"",
+    "watch": "node esbuild.config.js --watch",
+    "serve": "lite-server",
+    "build": "node esbuild.config.js --minify",
+    "preview": "npm run build && lite-server"
+  },
+  "devDependencies": {
+    "@types/serviceworker": "^0.0.67",
+    "concurrently": "^9.1.2",
+    "esbuild": "^0.20.1",
+    "esbuild-plugin-copy": "^2.1.1",
+    "lite-server": "^2.6.1",
+    "sass": "^1.83.0",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "rxjs": "^7.8.1"
+  }
+}
