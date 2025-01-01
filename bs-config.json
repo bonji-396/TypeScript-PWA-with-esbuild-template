@@ -1,9 +1,12 @@
 {
-  "server": {
-    "baseDir": "dist"
-  },
-  "files": ["dist/**/*"],
-  "open": false,
   "port": 3000,
-  "reloadDelay": 1000
+  "files": ["./dist/**/*.{html,css,js}"],
+  "server": {
+    "baseDir": "./dist"
+  },
+  "open": false,
+  "notify": false,
+  "ui": false,
+  "watch": true,
+  "reloadDelay": 500
 }
