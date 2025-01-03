@@ -1,4 +1,4 @@
-# TypeScript + PWA のテンプレート(esbuild)
+# esbuildで、TypeScript + PWA のテンプレート
 
 esbuildバンドラーを用いて、TypeScriptでPWAのフロントエンドアプリを作るためのテンプレートです。
 
